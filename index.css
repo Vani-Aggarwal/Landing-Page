@@ -116,10 +116,12 @@ footer{
 .action-div{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     color: white;
+    font-weight: 300;
     background-color: #3882f6;
-    padding: 70px 170px; 
+    padding: 50px 200px;
+    border-radius: 8px;
 }
 .action-heading{
     font-size: 28px;
@@ -129,4 +131,12 @@ footer{
     padding: 20px 200px;
     color: white;
     background-color:#1f2937 ;
+}
+.action-div button{
+    color: white;
+    border: 2px solid white;
+    background-color: #3882f6;
+    padding: 7px 30px;
+    border-radius: 5px;
+    
 }
